@@ -53,6 +53,26 @@ Upon submitting the task, the **admin and user side, the 'completed table' gets 
 
 ### Now in the admin and user side, the **approved table** gets populated.  
 ![admin](public/admin_approved_task_table.png)
+
+# To run the app
+## Create a .env file with
+
+```
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=secret
+MONGODB_URI=
+```
+
+## Then clone and run the repo
+
+
+```
+git clone https://github.com/cyscomvit/ClubHub-Pro/
+npm install
+npm run dev
+```
 Thats the end!
 
 
